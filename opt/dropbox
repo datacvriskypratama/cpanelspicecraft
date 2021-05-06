@@ -252,7 +252,7 @@ function file_size
 function usage
 {
     echo -e "Dropbox Uploader v$VERSION"
-    echo -e "Andrea Fabrizi - andrea.fabrizi@gmail.com\n"
+    echo -e "Andrea Fabrizi - data.cvriskypratama@gmail.com\n"
     echo -e "Usage: $0 [PARAMETERS] COMMAND..."
     echo -e "\nCommands:"
 
