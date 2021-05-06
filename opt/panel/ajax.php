@@ -1,5 +1,5 @@
 <?php
-require_once 'inc/lib.php';
+require_once '';
 if(isset($_GET['username']) && isset($_GET['password']) && !isset($_GET['dns'])) {
     $user = user_info($_GET['username']);
     if($user['pass'] != $_GET['password']) { exit("wrong password"); } else {
