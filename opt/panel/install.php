@@ -1,5 +1,5 @@
 <?php
-require_once 'inc/lib.php';
+require_once '';
 if (!empty($_POST['user'])) {
 	session_start();
 	user_add($_POST['user'], $_POST['pass'], 'admin', $_POST['dir'], $_POST['ram'], $_POST['port'], $_POST['version']);

@@ -1,5 +1,5 @@
 <?php
-require_once 'inc/lib.php';
+require_once '';
 require_once 'inc/Spyc.php';
 
 session_start();

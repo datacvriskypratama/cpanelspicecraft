@@ -1,5 +1,5 @@
 <?php
-require_once 'inc/lib.php';
+require_once '';
 session_start();
 if ((!$user = user_info($_SESSION['user'])) && !$_SESSION['user']) {
 	// Not logged in, redirect to login page

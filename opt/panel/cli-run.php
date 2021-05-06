@@ -27,7 +27,7 @@ if(empty($_GET['action'])) {
 
 // Initialize core
 chdir(dirname(__FILE__));
-require_once 'inc/lib.php';
+require_once '';
 
 // Handle actions
 switch($_GET['action']) {

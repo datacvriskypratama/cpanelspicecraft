@@ -1,5 +1,5 @@
 <?php
-require_once 'inc/lib.php';
+require_once '';
 
 session_start();
 if (empty($_SESSION['user']) || !$user = user_info($_SESSION['user'])) {
