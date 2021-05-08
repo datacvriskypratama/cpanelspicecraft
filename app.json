@@ -1,11 +1,11 @@
 {
-  "name": "INDOSERVERHOST",
+  "name": "SULTENGHOST",
   "description": "A Web-based minecraft server",
   "keywords": [
     "games",
     "minecraft"
   ],
-  "logo": "https://github.com/datacvriskypratama/cpanelspicecraft/master/logo.jpg",
+  "logo": "https://raw.githubusercontent.com/Ren232/mcgg/master/logo.jpg",
   "repository": "https://github.com/datacvriskypratama/cpanelspicecraft",
   "stack": "heroku-18",
   "env": {
