@@ -39,7 +39,7 @@
       "url": "https://github.com/datacvriskypratama/cpanelspicecraft"
     },
     {
-      "url": "https://github.com/datacvriskypratama/buildpack"
+      "url": "https://github.com/datacvriskypratama/heroku-buildpack-php"
     }
   ]
 }
