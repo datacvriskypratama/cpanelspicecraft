@@ -98,7 +98,7 @@ try {
 }
 
 //Notify players the backup is done
-server_cmd($user['user'], "/say [SPC-HOST BACKUP SUCCESSFULL] Backup complete");
+server_cmd($user['user'], "/say [MCHostPanel] Backup complete");
 
 //Turn auto-saves back on
 server_cmd($user['user'], "/save-on");

@@ -49,7 +49,7 @@ if(isset($_POST['action'])) {
 ?><!doctype html>
 <html>
 <head>
-	<title>ADMINISTRATION | INDO-SULTENGHOST</title>
+	<title>Administration | MC-LUWUKHOST</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -273,7 +273,6 @@ if(isset($_POST['action'])) {
 					
 					<div class="controls">
 						<select name="version" id="version" class="span4">
-							<option value="1.16.5">Papermc 1.16.5</option>
 							<option value="1.14.4">Spigot 1.14.4</option>
 							<option value="1.12.2">Spigot 1.12.2</option>
 							<option value="1.11.2">Spigot 1.11.2</option>

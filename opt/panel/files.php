@@ -173,7 +173,7 @@ if ($use_auth) {
                     </label>
                 </div>
                 <button class="btn btn-lg btn-primary btn-block mt-4" type="submit" role="button">Sign in</button>
-                <p class="mt-5 mb-3 text-muted">© SPICE-CRAFT HOSTING</p>
+                <p class="mt-5 mb-3 text-muted">© CCP Programmers</p>
             </form>
         </div>
         <?php

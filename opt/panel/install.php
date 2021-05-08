@@ -9,7 +9,7 @@ if (!empty($_POST['user'])) {
 ?><!doctype html>
 <html>
 <head>
-	<title>INDO-SULTENGHOST | CREATE SERVER</title>
+	<title>Install MC-LUWUKHOST</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
@@ -20,10 +20,10 @@ if (!empty($_POST['user'])) {
 <?php if (is_file(".installed")) { ?>
 	<div class="modal">
 		<div class="modal-header">
-			<h3>Your server was created successfully.</h3>
+			<h3>Install MCGG</h3>
 		</div>
 		<div class="modal-body">
-			<p>Translation results Congratulations your server has been successfully created!.</p>
+			<p>MCGG has already been installed.</p>
 
 			<p class="alert alert-info">If you are sure it is not installed, delete the <code>.installed</code> file and refresh this page.</p>
 		</div>
@@ -34,10 +34,10 @@ if (!empty($_POST['user'])) {
 <?php } elseif (!empty($_POST['user'])) { ?>
 	<div class="modal">
 		<div class="modal-header">
-			<h3>INDO-SULTENGHOST</h3>
+			<h3>Install MCHostPanel</h3>
 		</div>
 		<div class="modal-body">
-			<p>INDO-SULTENGHOST Your server has been created!</p>
+			<p>MCHostPanel has been installed, and you are now logged in.</p>
 		</div>
 		<div class="modal-footer">
 			<a class="btn btn-success" href="dashboard.php">Continue to Panel</a>
@@ -46,7 +46,7 @@ if (!empty($_POST['user'])) {
 <?php } else { ?>
 	<form class="modal form-horizontal" action="install.php" method="post">
 		<div class="modal-header">
-			<h3>Create Server INDO-SULTENGHOST</h3>
+			<h3>Install MCHostPanel</h3>
 		</div>
 		<div class="modal-body">
 			<legend>Administrator User</legend>
@@ -106,7 +106,6 @@ if (!empty($_POST['user'])) {
 					
 				<div class="controls">
 					<select name="version" id="version" class="span2">
-						<option value="1.16.5">PaperMC 1.16.5</option>
 						<option value="1.14.4">Spigot 1.14.4</option>
 						<option value="1.12.2">Spigot 1.12.2</option>
 						<option value="1.11.2">Spigot 1.11.2</option>
@@ -121,7 +120,7 @@ if (!empty($_POST['user'])) {
 			</div>
 		</div>
 		<div class="modal-footer">
-			<button class="btn btn-primary" type="submit">ISNTALL</button>
+			<button class="btn btn-primary" type="submit">Install and Log In</button>
 		</div>
 	</form>
 <?php } ?>
