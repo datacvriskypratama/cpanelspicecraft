@@ -1,5 +1,5 @@
 ﻿<?php
-require_once '';
+require_once 'inc/lib.php';
 
 session_start();
 
@@ -17,7 +17,7 @@ if (!empty($_SESSION['user']) && $user = user_info($_SESSION['user'])) {
 ?><!doctype html>
 <html>
 <head>
-	<title>SPICECRAFT | LOGIN CPANEL</title>
+	<title>INDO-SULTENGHOST | LOGIN CPANEL</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap.min.css">

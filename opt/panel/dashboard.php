@@ -1,5 +1,5 @@
 <?php
-require_once '';
+require_once 'inc/lib.php';
 
 session_start();
 if (!empty($_SESSION['user'])) {
@@ -48,7 +48,7 @@ if(isset($_POST['key'])) {
 ?><!doctype html>
 <html>
 <head>
-	<title>DASHBOAR | SPCH-HOST</title>
+	<title>DASHBOARD | INDO-SULTENGHOST</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
 	<link rel="stylesheet" href="css/bootstrap.min.css">

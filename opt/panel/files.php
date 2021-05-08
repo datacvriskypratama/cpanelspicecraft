@@ -7,7 +7,7 @@
  */
 
 // Auth MCHostPanel users
-require_once '';
+require_once 'inc/lib.php';
 
 session_start();
 if (empty($_SESSION['user']) || !$user = user_info($_SESSION['user'])) {

@@ -1,5 +1,5 @@
 <?php
-require_once '';
+require_once 'inc/lib.php';
 session_start();
 if (empty($_SESSION['user']) || !$user = user_info($_SESSION['user'])) {
 	header('Location: dashboard.php');
@@ -8,7 +8,7 @@ if (empty($_SESSION['user']) || !$user = user_info($_SESSION['user'])) {
 <!doctype html>
 <html>
 	<head>
-		<title>User Profile | MCHostPanel</title>
+		<title>User Profile | INDO-SULTENGHOST</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
