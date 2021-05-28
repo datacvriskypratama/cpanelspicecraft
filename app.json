@@ -6,7 +6,7 @@
     "minecraft"
   ],
   "logo": "https://raw.githubusercontent.com/Ren232/mcgg/master/logo.jpg",
-  "repository": "https://github.com/datacvriskypratama/cpanelspicecraft",
+  "repository": "https://github.com/datacvriskypratama/12",
   "stack": "heroku-18",
   "env": {
     "MINECRAFT_EULA": {
